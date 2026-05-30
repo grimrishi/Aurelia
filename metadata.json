@@ -1,0 +1,6 @@
+{
+  "name": "Aurelia Dining",
+  "description": "A premium, modern, fully responsive website for Aurelia Dining — an elegant high-end fine dining restaurant in the Urban City Center of Paris.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
