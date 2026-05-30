@@ -8,7 +8,6 @@ import { motion } from 'motion/react';
 import { Trophy, Compass, Landmark, Flame, UserCheck, Star, Sparkles } from 'lucide-react';
 import { Language } from '../types';
 import { DICTIONARY, TEAM, AWARDS, TIMELINE } from '../data';
-import chefAlainDucasseImage from '../assets/images/chef_alain_ducasse_1780111327456.png';
 
 interface AboutViewProps {
   language: Language;
@@ -129,7 +128,7 @@ export default function AboutView({ language, darkMode }: AboutViewProps) {
               <div className="absolute -inset-1 bg-gold/15 rounded-2xl blur-md" />
               <div className="relative rounded-2xl overflow-hidden border shadow-xl aspect-[3/4]" style={{ borderColor: darkMode ? 'rgba(255,255,255,0.05)' : 'rgba(26,26,26,0.1)' }}>
                 <img
-                  src={chefAlainDucasseImage}
+                  src="https://i.pinimg.com/736x/0b/0f/4f/0b0f4fb9427f205795d4c10abcc297e9.jpg"
                   alt="Executive Chef Alain Ducasse close-up"
                   className="w-full h-full object-cover saturate-100 hover:scale-102 transition-transform duration-500"
                   referrerPolicy="no-referrer"

@@ -4,9 +4,6 @@
  */
 
 import { Dish, Testimonial, GalleryItem, FAQItem, TeamMember, Award, TimelineMilestone, Language } from './types';
-import chefAlainDucasseImage from './assets/images/chef_alain_ducasse_1780111327456.png';
-import truffleBurrataImage from './assets/images/truffle_burrata_1780113097943.png';
-import lobsterBisqueImage from './assets/images/lobster_bisque_1780113462832.png';
 
 export const DICTIONARY: Record<Language, Record<string, string>> = {
   EN: {
@@ -149,7 +146,7 @@ export const DISHES: Dish[] = [
     description: "Creamy Italian Burrata, fresh heirloom tomatoes, white truffle oil, and aged balsamic glaze served with toasted focaccia.",
     price: 24,
     category: "Starters",
-    image: truffleBurrataImage,
+    image: "https://i.pinimg.com/736x/50/7d/a6/507da6bd63e91f55d385deea89a44c37.jpg",
     tags: ["Signature", "Creamy", "Aromatic"],
     vegetarian: true,
     spicy: false,
@@ -176,7 +173,7 @@ export const DISHES: Dish[] = [
     description: "Rich and velvety lobster essence infused with Spanish saffron, cognac cream, and butter-poached Maine lobster knuckle pieces.",
     price: 22,
     category: "Soups",
-    image: lobsterBisqueImage,
+    image: "https://i.pinimg.com/1200x/2c/9a/bf/2c9abf0b60cf910d86bc57599ea5454a.jpg",
     tags: ["Luxury", "Rich"],
     vegetarian: false,
     spicy: false,
@@ -391,7 +388,7 @@ export const GALLERY: GalleryItem[] = [
   {
     id: "gal-1",
     category: "food",
-    imageUrl: truffleBurrataImage,
+    imageUrl: "https://i.pinimg.com/736x/50/7d/a6/507da6bd63e91f55d385deea89a44c37.jpg",
     title: "Truffle Burrata Starter",
     description: "Locally sourced creamy burrata surrounded by premium heritage tomatoes and cold-pressed extra virgin oils."
   },
@@ -405,7 +402,7 @@ export const GALLERY: GalleryItem[] = [
   {
     id: "gal-3",
     category: "chef",
-    imageUrl: chefAlainDucasseImage,
+    imageUrl: "https://i.pinimg.com/736x/0b/0f/4f/0b0f4fb9427f205795d4c10abcc297e9.jpg",
     title: "Chef Alain Ducasse",
     description: "Our founding culinary director tasting our signature wood-fired seafood reductions."
   },
@@ -503,7 +500,7 @@ export const TEAM: TeamMember[] = [
     name: "Chef Alain Ducasse",
     role: "Founding Culinary Director",
     bio: "With legendary culinary mastery across Paris, Monaco, and London, Chef Alain Ducasse has redefined high gastronomy with his immaculate focus on purity, raw materials, and precision french cuisine.",
-    image: chefAlainDucasseImage
+    image: "https://i.pinimg.com/736x/0b/0f/4f/0b0f4fb9427f205795d4c10abcc297e9.jpg"
   },
   {
     id: "team-2",
