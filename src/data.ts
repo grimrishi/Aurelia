@@ -186,7 +186,7 @@ export const DISHES: Dish[] = [
     description: "Clear, deeply flavored broth made from wild porcini and chanterelle mushrooms, garnished with dry sherry and fresh thyme.",
     price: 18,
     category: "Soups",
-    image: "https://images.unsplash.com/photo-1621996346565-e19759f59963?w=800&q=80",
+    image: "https://i.pinimg.com/1200x/3c/92/e9/3c92e98861e6accb3e5c2221328e99a7.jpg",
     tags: ["Earthoy", "Light"],
     vegetarian: true,
     spicy: false,
